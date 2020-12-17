@@ -20,9 +20,13 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, hgroup, menu, nav, section {
 	display: block;
 }
+
+:lang(en) > q { quotes: '\201C' '\201D' '\2018' '\2019'; }
+:lang(fr) > q { quotes: '« ' ' »'; }
+:lang(de) > q { quotes: '»' '«' '\2039' '\203A'; }
 
 ol, ul {
 	list-style: none;
@@ -52,8 +56,8 @@ table {
 .header {
 	width: 100%;
 	background-color: rgb(255, 255, 255, 0.5);
-	padding-top: 22px;
-	padding-bottom: 22px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .container {
@@ -103,7 +107,7 @@ table {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 9px;
 	text-transform: uppercase;
-	border: 2px solid #3eb1ea;
+	border: 3px solid #3eb1ea;
 	border-radius: 5px;
 	padding: 14px 40px;	
 }
@@ -112,3 +116,43 @@ table {
 	transform: translateY(1px);
 	filter: saturate(150%);
 }
+
+.TrevelWithUs_text {
+	max-width: 1100px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 9%;
+	margin-left: 21%;
+
+}
+
+.button_OrderNow {
+	font-family: 'Raleway', sans-serif;
+	display: inline-block;
+	text-decoration: none;
+	color: #fffefe;
+	background: #3eb1ea;
+	font-size: 10px;
+	text-transform: uppercase;
+	border: 3px solid #3eb1ea;
+	border-radius: 5px;
+	padding: 25px 75px;	
+}
+
+.Text_Lorem {
+	font-family: 'Open Sans', sans-serif;
+	color: #fffefe;
+	padding-top: 15px;
+}
+
+.Txt_Lorem {
+	font-family: 'Open Sans', sans-serif;
+	color: #fffefe;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+.button_OrderNow:active {
+	transform: translateY(1px);
+	filter: saturate(150%);
