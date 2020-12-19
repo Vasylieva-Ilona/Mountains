@@ -41,6 +41,10 @@ table {
 	border-spacing: 0;
 }
 
+* {
+	border: none;
+}
+
 @font-face {font-family: "Bringin";
 	src: url("./fonts/Bringin/Bringin.eot"); /* IE9*/
 	src: url("./fonts/Bringin/Bringin.otf") format("embedded-opentype"), /* IE6-IE8 */
@@ -75,7 +79,7 @@ table {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: 20%;
+	margin-left: 18%;
 }
 
 .nav__link {
@@ -120,6 +124,7 @@ table {
 	border-radius: 5px;
 	padding: 14px 40px;	
 	letter-spacing: 2px;
+	cursor: pointer;
 }
 
 .button:hover {
@@ -138,7 +143,7 @@ table {
 
 
 
-/* TrevelWithUs__Block */
+/* TrevelWithUs__Section */
 
 
 .container_2 {
@@ -151,7 +156,7 @@ table {
 	flex-direction: column;
 	align-items: flex-start;
 	margin-top: 9%;
-	margin-left: 21%;
+	margin-left: 15%;
 	padding: 25px 35px 35px 35px;
 	border: 3px solid #fff;
 }
@@ -176,6 +181,17 @@ table {
 	letter-spacing: 1px;
 }
 
+.Text_Lorem {
+	font-family: 'Open Sans', sans-serif;
+	color: #c3cdd3;
+	font-size: 18px;
+	max-width: 435px;
+	margin-top: -5px;
+	line-height: 25px;
+	margin-bottom: 25px;
+}
+
+
 .button_OrderNow {
 	font-family: 'Raleway', sans-serif;
 	display: inline-block;
@@ -188,16 +204,7 @@ table {
 	border-radius: 5px;
 	padding: 25px 75px;	
 	letter-spacing: 2px;
-}
-
-.Text_Lorem {
-	font-family: 'Open Sans', sans-serif;
-	color: #c3cdd3;
-	font-size: 18px;
-	max-width: 435px;
-	margin-top: -5px;
-	line-height: 25px;
-	margin-bottom: 25px;
+	cursor: pointer;
 }
 
 
@@ -216,6 +223,35 @@ table {
 }
 
 
-/* About Us __Block */
+/* About Us __Section */
 
-/* Our Journal __Block */
+
+.AboutUs {
+	max-width: 1140px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 9%;
+	margin-left: 18%;
+
+}
+
+.AboutUs {
+
+}
+
+.AboutUs__img {
+	margin-left: 18%;
+
+}
+
+
+
+
+
+
+
+
+/* Our Journal __Section */
