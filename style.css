@@ -67,7 +67,7 @@ table {
 
 .nav__link {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 9px;
+	font-size: 12px;
 	text-transform: uppercase;
 	position: relative;
 	display: inline-block;
@@ -102,11 +102,18 @@ table {
 	color: #3eb1ea;
 	background: none;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 9px;
+	font-size: 12px;
 	text-transform: uppercase;
 	border: 3px solid #3eb1ea;
 	border-radius: 5px;
 	padding: 14px 40px;	
+}
+
+.button:hover {
+	text-decoration: none;
+	color: #fffefe;
+	background: #3eb1ea;
+	box-shadow: 0 0 5px #3eb1ea;	
 }
 
 .button:active {
@@ -130,7 +137,7 @@ table {
 	text-decoration: none;
 	color: #fffefe;
 	background: #3eb1ea;
-	font-size: 10px;
+	font-size: 12px;
 	text-transform: uppercase;
 	border: 3px solid #3eb1ea;
 	border-radius: 5px;
@@ -150,6 +157,15 @@ table {
 	padding-bottom: 30px;
 }
 
+.button_OrderNow:hover {
+	text-decoration: none;
+	color: #3eb1ea;
+	background: none;	
+	border: 3px solid #3eb1ea;
+	box-shadow: 0 0 5px;
+}
+
 .button_OrderNow:active {
 	transform: translateY(1px);
 	filter: saturate(150%);
+
