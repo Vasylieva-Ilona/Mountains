@@ -321,14 +321,47 @@ table {
 
 .OurJournal__Section {
 	background-color: #ffffff;
-	min-height: 1160px;
+	min-height: 1165px;
 }
+
 
 .container_4 {
 	max-width: 1140px;
-	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
-	margin-left: 390px;
+	margin-left: 386px;
+	margin-top: 71px;
 }
+
+.title_center {
+	text-align: center;
+}
+
+.title_center::before {
+	content: "";
+	background: url('./images/all_pictures/waves.png') no-repeat;
+	background-size: contain;
+	display: block;
+	height: 7px;
+	margin-bottom: 35px;
+	background-position: center;
+}
+
+.title_center h2 {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #050505;
+}
+
+.table_OurJournal {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 33.3%;
+	padding-top: 70px;
+}
+
+
 
