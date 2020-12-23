@@ -75,11 +75,11 @@ table {
 }
 
 .container {
-	max-width: 1140px;
+	max-width: 1122px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: 402px;
+	margin-left: 403px;
 }
 
 .nav__link {
@@ -151,12 +151,12 @@ table {
 }
 
 .TrevelWithUs_text {
-	max-width: 1085px;
+	max-width: 1064px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	margin-top: 190px;
-	margin-left: 346px;
+	margin-left: 350px;
 	padding: 25px 35px 35px 35px;
 	border: 3px solid #fff;
 }
@@ -236,7 +236,7 @@ table {
 	flex-direction: row;
 	padding-top: 205px;
 	padding-bottom: 230px;
-	margin-left: 381px;
+	margin-left: 390px;
 }
 .background {
 	background: url(./images/AboutUs/Map_AboutUs.png) no-repeat;
@@ -318,4 +318,17 @@ table {
 
 
 /* Our Journal __Section */
+
+.OurJournal__Section {
+	background-color: #ffffff;
+	min-height: 1160px;
+}
+
+.container_4 {
+	max-width: 1140px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 390px;
+}
 
