@@ -58,7 +58,7 @@ table {
 
 .intro {
     width: 100%;
-	min-height: 100vh;
+	min-height: 700px;
     background-image: url(./images/intro/mountains-free-travel-landing-page-psd-template.jpg);
     background-repeat: no-repeat;
     background-position: top;
@@ -79,7 +79,7 @@ table {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: 412px;
+	margin-left: 402px;
 }
 
 .nav__link {
@@ -156,7 +156,7 @@ table {
 	flex-direction: column;
 	align-items: flex-start;
 	margin-top: 190px;
-	margin-left: 355px;;
+	margin-left: 346px;
 	padding: 25px 35px 35px 35px;
 	border: 3px solid #fff;
 }
@@ -224,33 +224,98 @@ table {
 
 /* About Us __Section */
 
+.about__section {
+	background-color: #f6f4f4;
+	min-height: 670px;
+}
 
-.AboutUs {
-	max-width: 1140px;
+.container_3 {
+	position: relative;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	flex-direction: column;
 	align-items: flex-start;
-	margin-top: 9%;
-	margin-left: 18%;
-
+	flex-direction: row;
+	padding-top: 205px;
+	padding-bottom: 230px;
+	margin-left: 381px;
+}
+.background {
+	background: url(./images/AboutUs/Map_AboutUs.png) no-repeat;
+	background-position: 100px 15px;
 }
 
 .AboutUs {
+	flex: 1;
+	flex-basis: 35%;
+	font-family: 'Open Sans', sans-serif;
+	max-width: 360px;
+	margin-top: -5px;
+	margin-bottom: 20px;
+}
+
+.line-wave::before {
+	content: "";
+	background: url('./images/all_pictures/waves.png') no-repeat;
+	background-size: contain;
+	display: block;
+	height: 7px;
+	margin-bottom: 35px;
+}
+
+.AboutUs .title_little {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #050505;
+}
+
+.AboutUs .little {
+	color: #b5b4b4;
+	font-size: 14px;
+	padding-top: 15px;
+	line-height: 25px;
+}
+
+.AboutUs_BigPicture {
+	margin-left: auto;
+	position: absolute;
+	top: -40px;
+	right: 170px;
 
 }
 
-.AboutUs__img {
-	margin-left: 18%;
-
+.AboutUs_SmallPicture {
+	position: absolute;
+	z-index: 5;
+	bottom: 55px;
+	left: calc(30% + 0px);
 }
 
+.AboutUs .btn {
+	margin-top: 20px;
+	font-family: 'Raleway', sans-serif;
+	display: inline-block;
+	text-decoration: none;
+	color: #fffefe;
+	background: #3eb1ea;
+	font-size: 12px;
+	text-transform: uppercase;
+	border: 3px solid #3eb1ea;
+	border-radius: 5px;
+	padding: 15px 24px;	
+	letter-spacing: 2px;
+	cursor: pointer;
+}
 
-
-
-
-
+.AboutUs .btn:hover {
+	text-decoration: none;
+	color: #3eb1ea;
+	background: none;	
+	border: 3px solid #3eb1ea;
+	box-shadow: 0 0 5px;
+	transition: .5s;
+}
 
 
 /* Our Journal __Section */
+
