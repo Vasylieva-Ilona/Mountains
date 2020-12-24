@@ -359,27 +359,75 @@ table {
 .table_OurJournal {
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: row;
 	font-size: 33.3%;
 	padding-top: 70px;
 }
 
 .text_OurJournal {
-	position: relative;
+	min-height: 380px;
+	width: 380px;
+	word-wrap: break-word;
 }
 
 .text_OurJournal p {
-	position: absolute;
 	font-family: 'Open Sans', sans-serif;
-	display: inline-block;
-	height: 20px;
-	width: 40%;
-	align-content: flex-start;
-	font-size: 12px;
-	top: 100px;
+	text-align: center;
+	align-content: center;
+	padding-left: 59px;
+	padding-right: 59px;
 	margin: auto;
-	padding: 46px 35px;
 	left: 0;
 }
 
+.text_OurJournal .blue_text {
+	text-transform: uppercase;
+	padding-top: 47px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #16b5ef;
+	letter-spacing: 2px;
+}
 
+
+.text_OurJournal .title_text {
+	padding-top: 56px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.text_OurJournal .small_text {
+	padding-top: 28px;
+	font-size: 14px;
+}
+
+
+.text_OurJournal .number_text {
+	padding-top: 40px;
+	font-size: 12px;
+	font-style: oblique; 
+}
+
+.text_OurJournal .title_two {
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.text_OurJournal .title_four {
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.text_OurJournal .title_six {
+	padding-left: 115px;
+	padding-right: 115px;
+}
+
+.text_OurJournal span {
+	text-decoration: line-through;
+}
 
