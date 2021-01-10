@@ -433,3 +433,52 @@ table {
 
 /* Do_You_Wanna_Go __Section */
 
+.doyouwannago {
+    width: 100%;
+	min-height: 670px;
+    background-image: url(./images/DoYouWannaGo/background.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.container_5 {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-top: 205px;
+    padding-bottom: 230px;
+	margin-left: 390px;
+	
+}
+
+.Do_You_Wanna_Go {
+    flex: 1;
+    flex-basis: 35%;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -5px;
+	margin-bottom: 20px;
+	max-width: 880px;
+}
+
+.Do_You_Wanna_Go .title_little {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+	color: #050505;
+}
+
+.Do_You_Wanna_Go .little {
+    color: #b5b4b4;
+    font-size: 14px;
+	line-height: 25px;
+}
+
+.Do_You_Wanna_Go ._one {
+	padding-top: 15px;
+	max-width: 360px;
+}
+
+
