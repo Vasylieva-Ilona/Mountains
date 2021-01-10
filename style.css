@@ -516,6 +516,23 @@ table {
 	color: #848484;
 }
 
+.Your_data {
+	max-width: 255px;
+}
+
+.Your_data .locked_before {
+	margin-top: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #36aeea;
+	float: right;
+}
+
+.Your_data .Locked_img {
+	display: block;
+	margin-top: 18px;
+	float: left;
+}
 
 
 /* How_we_work __Section */
