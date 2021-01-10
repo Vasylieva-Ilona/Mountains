@@ -540,8 +540,19 @@ table {
 
 .text_How_we_work {
 	min-height: 100px;
-	width: 260px;
+	width: 285px;
 	word-wrap: break-word;
+}
+
+.text_How_we_work img {
+	padding-top: 58px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.text_How_we_work .img_small {
+	padding-left: 118px;
+	padding-right: 118px;
 }
 
 .text_How_we_work p {
@@ -555,9 +566,8 @@ table {
 }
 
 
-
 .text_How_we_work .title_text {
-	padding-top: 56px;
+	padding-top: 25px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	font-weight: bold;
