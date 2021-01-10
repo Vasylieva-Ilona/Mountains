@@ -481,4 +481,100 @@ table {
 	max-width: 360px;
 }
 
+.button_form {
+	display: inline-block;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #3eb1ea;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	border: 3px solid #ffffff;
+	border-radius: 5px;
+	padding: 14px 40px;	
+	letter-spacing: 2px;
+	cursor: pointer;
+}
+
+.button_form:hover {
+	background-color: #3494c4;
+}
+
+.button_form:active {
+	transform: translateY(1px);
+	filter: saturate(150%);
+}
+
+.input_form {
+	width: 300px;
+	padding-left: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin-top: 30px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	color: #848484;
+}
+
+
+
+/* How_we_work __Section */
+
+
+.container_6 {
+	max-width: 1140px;
+	min-height: 717px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 386px;
+    margin-top: 71px;
+}
+
+.table_How_we_work {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	font-size: 33.3%;
+	padding-top: 70px;
+}
+
+.text_How_we_work {
+	min-height: 100px;
+	width: 260px;
+	word-wrap: break-word;
+}
+
+.text_How_we_work p {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	align-content: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: auto;
+	left: 0;
+}
+
+
+
+.text_How_we_work .title_text {
+	padding-top: 56px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.text_How_we_work .small_text {
+	font-size: 14px;
+}
+
+.text_How_we_work .title {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+
+
 
