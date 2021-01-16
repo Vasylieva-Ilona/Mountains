@@ -74,12 +74,16 @@ table {
 	
 }
 
+.header_logo {
+	padding-left: 19px;
+}
+
 .container {
-	max-width: 1122px;
+	max-width: 1140px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: 403px;
+    margin: 0 auto;
 }
 
 .nav__link {
@@ -93,6 +97,28 @@ table {
 	padding: 4px;
 	color: #b0bec4;
 	text-decoration: none;
+}
+
+.nav__link a {
+	color: #b0bec4;
+	text-decoration: none;
+}
+
+.nav__link a:hover {
+	color: #8d9294;
+	text-decoration: none;
+}
+
+.nav__link a:after {
+	color: #b0bec4;
+	text-decoration: none;
+}
+
+.nav__link a:active {
+	color: #b0bec4;
+	text-decoration: none;
+	transform: translateY(1px);
+	filter: saturate(150%);
 }
 
 .nav__link:after {
@@ -147,7 +173,7 @@ table {
 
 
 .container_2 {
-	padding: 35px;
+	padding-top: 221px;
 }
 
 .TrevelWithUs_text {
@@ -155,8 +181,7 @@ table {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	margin-top: 190px;
-	margin-left: 350px;
+	margin: 0 auto;
 	padding: 25px 35px 35px 35px;
 	border: 3px solid #fff;
 }
@@ -230,13 +255,12 @@ table {
 }
 
 .container_3 {
-	position: relative;
+	max-width: 1140px;
 	display: flex;
+	flex-direction: column;
 	align-items: flex-start;
-	flex-direction: row;
-	padding-top: 205px;
-	padding-bottom: 230px;
-	margin-left: 390px;
+	margin: 0 auto;
+	padding: 200px 15px 15px;
 }
 .background {
 	background: url(./images/AboutUs/Map_AboutUs.png) no-repeat;
@@ -279,16 +303,16 @@ table {
 .AboutUs_BigPicture {
 	margin-left: auto;
 	position: absolute;
-	top: -40px;
+	top: 662px;
 	right: 170px;
 
 }
 
 .AboutUs_SmallPicture {
+	margin-left: auto;
 	position: absolute;
-	z-index: 5;
-	bottom: 55px;
-	left: calc(30% + 0px);
+	top: 975px;
+	right: 715px;
 }
 
 .AboutUs .btn {
@@ -329,13 +353,10 @@ table {
 	max-width: 1140px;
 	justify-content: center;
 	align-items: center;
-	margin-left: 386px;
-	margin-top: 71px;
+	padding: 70px 15px 15px;
+	margin: 0 auto;
 }
 
-.title_center {
-	text-align: center;
-}
 
 .title_center::before {
 	content: "";
@@ -347,9 +368,11 @@ table {
 	background-position: center;
 }
 
-.title_center h2 {
+.title_center {
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
+	padding-bottom: 70px;
+	text-align: center;
 	font-size: 30px;
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -361,7 +384,7 @@ table {
 	flex-wrap: wrap;
 	flex-direction: row;
 	font-size: 33.3%;
-	padding-top: 70px;
+	box-shadow: 0 0 5px 2px #f4f4f4;
 }
 
 .text_OurJournal {
@@ -443,13 +466,11 @@ table {
 }
 
 .container_5 {
-    position: relative;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    padding-top: 205px;
-    padding-bottom: 230px;
-	margin-left: 390px;
+	max-width: 1140px;
+	justify-content: center;
+	align-items: center;
+	padding: 145px 15px 15px;
+	margin: 0 auto;
 	
 }
 
@@ -540,11 +561,10 @@ table {
 
 .container_6 {
 	max-width: 1140px;
-	min-height: 717px;
+	padding: 70px 0px 100px 0px;
     justify-content: center;
     align-items: center;
-    margin-left: 386px;
-    margin-top: 71px;
+    margin: 0 auto;
 }
 
 .table_How_we_work {
@@ -552,7 +572,6 @@ table {
 	flex-wrap: wrap;
 	flex-direction: row;
 	font-size: 33.3%;
-	padding-top: 70px;
 }
 
 .text_How_we_work {
@@ -562,7 +581,7 @@ table {
 }
 
 .text_How_we_work img {
-	padding-top: 58px;
+	padding: 0px 0px 58px 0px;
 	padding-left: 50px;
 	padding-right: 50px;
 }

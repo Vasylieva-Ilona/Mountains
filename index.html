@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
     <title>Mountains</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -28,7 +28,7 @@
 
     <div class="intro">
 
-    <header class="header" id="main-menu">    
+        <header class="header" id="main-menu">    
 
             <div class="container">
 
@@ -36,13 +36,13 @@
 
                     <nav class="nav">
                         <ul class="nav">
-                            <li class="nav__link" href="#">Our story</li>
-                            <li class="nav__link" href="#">Cervices</li>
-                            <li class="nav__link" href="#">Work</li>
-                            <li class="nav__link" href="#">Journal</li>
-                            <li class="nav__link" href="#">Contact</li>
-                            <li class="nav__link" href="#">Work</li>
-                            <li class="nav__link" href="#">Journal</li>
+                            <li class="nav__link"><a href="#">Our story</a></li>
+                            <li class="nav__link"><a href="#">Cervices</a></li>
+                            <li class="nav__link"><a href="#">Work</a></li>
+                            <li class="nav__link"><a href="#">Journal</a></li>
+                            <li class="nav__link"><a href="#">Contact</a></li>
+                            <li class="nav__link"><a href="#">Work</a></li>
+                            <li class="nav__link"><a href="#">Journal</a></li>
                         </ul>
                     </nav>
 
@@ -50,9 +50,9 @@
                 
             </div>
 
-    </header>
+        </header>
 
-    <section class="border_section">
+        <section class="border_section">
 
             <div class="container_2">
 
@@ -74,7 +74,7 @@
 
             </div>
 
-        </div>
+        </section>
 
     </div>
 
@@ -112,9 +112,7 @@
 
         <div class="container_4">
 
-            <div class="title_center">
-                <h2>Our Journal</h2>
-            </div>
+                <h2 class="title_center">Our Journal</h2>
 
                 <div class="table_OurJournal">
 
@@ -192,9 +190,11 @@
                 interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel lectus at luctus.   
                 </p>
 
-                <form action="#" method="POST"></form>
+                <form action="#" method="POST">
 
-                    <input class="input_form" type="text" id="name" value="Your name:"><input class="input_form" type="tel" value="Your phone:"><input class="button_form" type="submit" value="Order now">
+                    <label for="name"></label><input class="input_form" type="text" id="name" value="Your name:">
+                    <label for="phone"></label><input class="input_form" type="tel" id="phone" value="Your phone:">
+                    <label for="button_form"></label><input class="button_form" type="submit" id="button_form" value="Order now">
 
                 </form>
 
@@ -275,6 +275,10 @@
                         </p>
                         
                     </div>
+
+        </div>
+
+    </section>
 
 </body>
 </html>
