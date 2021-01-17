@@ -384,7 +384,8 @@ table {
 	flex-wrap: wrap;
 	flex-direction: row;
 	font-size: 33.3%;
-	box-shadow: 0 0 5px 2px #f4f4f4;
+	box-shadow: 0 0 8px 5px #f4f4f4;
+	position: relative;
 }
 
 .text_OurJournal {
@@ -454,6 +455,39 @@ table {
 	text-decoration: line-through;
 }
 
+.arrow_left {
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-right: 10px solid #ffffff;
+	border-bottom: 10px solid transparent;
+	border-top: 10px solid transparent;
+	margin-top: 50px;
+	margin-left: 372px;
+}
+
+.arrow_top {
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-bottom: 10px solid #ffffff;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	margin-top: 371px;
+	margin-left: 815px;
+}
+
+.arrow_right {
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 10px solid #ffffff;
+	border-bottom: 10px solid transparent;
+	border-top: 10px solid transparent;
+	margin-top: 432px;
+	margin-left: 379px;
+}
+
 /* Do_You_Wanna_Go __Section */
 
 .doyouwannago {
@@ -480,7 +514,7 @@ table {
     font-family: 'Open Sans', sans-serif;
     margin-top: -5px;
 	margin-bottom: 20px;
-	max-width: 880px;
+	max-width: 860px;
 }
 
 .Do_You_Wanna_Go .title_little {
@@ -502,17 +536,21 @@ table {
 	max-width: 360px;
 }
 
+.Do_You_Wanna_Go ._two {
+	padding-bottom: 28px;
+}
+
 .button_form {
 	display: inline-block;
 	text-decoration: none;
 	color: #ffffff;
 	background-color: #3eb1ea;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
+	font-weight: bold;
 	text-transform: uppercase;
 	border: 3px solid #ffffff;
 	border-radius: 5px;
-	padding: 14px 40px;	
+	padding: 23px 50px;	
 	letter-spacing: 2px;
 	cursor: pointer;
 }
@@ -526,15 +564,24 @@ table {
 	filter: saturate(150%);
 }
 
+.form {
+	background-color: white;
+}
+
 .input_form {
 	width: 300px;
 	padding-left: 20px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	margin-top: 30px;
 	padding-top: 17px;
 	padding-bottom: 17px;
 	color: #848484;
+}
+
+.before_stripe {
+	content: "";
+	background: url('./images/HowWeWork/Stripe.png') no-repeat;
+	background-size: contain;
 }
 
 .Your_data {
@@ -567,6 +614,10 @@ table {
     margin: 0 auto;
 }
 
+.text_center {
+	padding-bottom: 90px;
+}
+
 .table_How_we_work {
 	display: flex;
 	flex-wrap: wrap;
@@ -581,7 +632,7 @@ table {
 }
 
 .text_How_we_work img {
-	padding: 0px 0px 58px 0px;
+	padding: 0px 0px;
 	padding-left: 50px;
 	padding-right: 50px;
 }
@@ -590,6 +641,27 @@ table {
 	padding-left: 118px;
 	padding-right: 118px;
 }
+
+
+.before_stripes::before {
+	content: "";
+	background: url('./images/HowWeWork/stripes_white_green.png');
+	background-repeat: space;
+	display: block;
+	height: 2px;
+	margin-bottom: -24px;
+	background-position: center;
+}
+
+.before_stripes::after {
+	content: "";
+	background: url('./images/HowWeWork/stripes_white_green_vertical.png');
+	background-repeat: repeat-y;
+	display: block;
+	height: 60px;
+	background-position: center;
+}
+
 
 .text_How_we_work p {
 	font-family: 'Open Sans', sans-serif;
@@ -621,6 +693,69 @@ table {
 }
 
 
+/* Travel With Us __Section */
+
+.container_7 {
+	max-width: 1140px;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 15px 15px;
+	margin: 0 auto;	
+}
+
+.Travel_With_Us__Section {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1475px;
+	min-height: 670px;
+	background-image: url(./images/TravelWithUs/worldmap-dots.png);
+	background-position-y: 15px;
+    background-repeat: no-repeat;
+}
+
+.Travel_With_Us {
+	width: 100%;
+	min-height: 1030px;
+	background-image: url(./images/TravelWithUs/bg_travelwithus.png);
+	background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
+/* Gallery_Section __Section */
+
+.Gallery .text_top_position {
+	padding: 70px 15px 15px 15px;
+}
+
+.container_8 {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.grid_pictures {
+	display: grid;
+	grid-template-columns: 278px 380px 472px;
+	grid-template-rows: 365px 310px 300px;
+}
+
+
+
+/* Our_Clients_Say __Section */
+
+.Our_Clients_Say {
+	min-height: 1280px;
+	background-image: url(./images/OurClientsSay/mountains-back.png);
+	background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container_9 {
+	max-width: 1140px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
